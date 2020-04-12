@@ -6,6 +6,11 @@
       "src": "/",
       "dest": "/server.js",
       "methods": ["GET"]
+    },
+    {
+      "src": "/products",
+      "dest": "/server.js",
+      "methods": ["GET"]
     }
   ]
 }
