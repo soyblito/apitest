@@ -36,7 +36,7 @@ router(app);
 
 app.use('/app', express.static('public'));
 server.listen(8080,function(){
-  console.log('La App esta en: http://api.gluck3d.com.ar:5500');
+  //console.log('La App esta en: http://api.gluck3d.com.ar:5500');
 })
 /*
 server2.listen(5600,function(){

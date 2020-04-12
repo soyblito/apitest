@@ -11,6 +11,16 @@
       "src": "/products",
       "dest": "/server.js",
       "methods": ["GET"]
+    },
+    {
+      "src": "/requestlist",
+      "dest": "/server.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/user",
+      "dest": "/server.js",
+      "methods": ["GET"]
     }
   ]
 }
