@@ -8,6 +8,36 @@
       "methods": ["GET"]
     },
     {
+      "src": "/requestlist",
+      "dest": "/server.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/requestlist/id/(.*)",
+      "dest": "/server.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/requestlist",
+      "dest": "/server.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/user",
+      "dest": "/server.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/user",
+      "dest": "/server.js",
+      "methods": ["POST"]
+    },
+    {
+      "src": "/user/login",
+      "dest": "/server.js",
+      "methods": ["POST"]
+    },
+    {
       "src": "/products",
       "dest": "/server.js",
       "methods": ["GET"]
