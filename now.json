@@ -13,7 +13,7 @@
       "methods": ["GET"]
     },
     {
-      "src": "/products/id/:id",
+      "src": "/products/id/(.*)",
       "dest": "/server.js",
       "methods": ["GET"]
     },
