@@ -13,9 +13,19 @@
       "methods": ["GET"]
     },
     {
+      "src": "/products",
+      "dest": "/server.js",
+      "methods": ["POST"]
+    },
+    {
       "src": "/products/id/(.*)",
       "dest": "/server.js",
       "methods": ["GET"]
+    },
+    {
+      "src": "/products/(.*)",
+      "dest": "/server.js",
+      "methods": ["PATCH"]
     },
     {
       "src": "/requestlist",
