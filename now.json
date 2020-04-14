@@ -48,6 +48,11 @@
       "methods": ["POST"]
     },
     {
+      "src": "/products/ftp",
+      "dest": "/server.js",
+      "methods": ["POST"]
+    },
+    {
       "src": "/products/id/(.*)",
       "dest": "/server.js",
       "methods": ["GET"]
